@@ -1,0 +1,56 @@
+.cp-form{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 2px #007bff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.cp-logo{
+    margin: 10px auto 20px auto;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.cp-logo:hover{
+    color: #007bff;
+}
+.cp-logo[alt]{
+    font-size: xx-large;
+}
+.cp-input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-style: none;
+    background-color: whitesmoke;
+    border-width: 1px;
+    margin-bottom: 5px;
+    color: #222;
+}
+.cp-input[readOnly]:hover{
+    cursor: copy;
+}
+.cp-input[type=submit], .cp-input[type=reset]{
+    background-color: #007bff;
+    color: whitesmoke;
+}
+.cp-input[type=submit]:hover, .cp-input[type=reset]:hover{
+    cursor: pointer;
+    background-color: rgb(52, 2, 189);
+    box-shadow: inset;
+}
+.cp-action-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.cp-ac-row{
+    flex-direction: row;
+}
+.cp-action-container *{
+    width: 100%;
+}
